@@ -134,25 +134,22 @@ body {
   margin: 0 0 10px 0;
 }
 
-/* Langueges */
-.list-language {
-  list-style: none;
-}
-
 /* Sidebar section */
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
+  min-width: 300px;
+  /* width: 360px; */
   padding: 40px 0;
 }
 
-.image {
+/* .image {
   width: 360px;
-}
+} */
 
 .contacts-section,
 .tech-skills-section,
-.soft-skills-section {
+.soft-skills-section,
+.languages-section {
   margin: 50px 0 0 40px;
 }
 
@@ -210,6 +207,23 @@ body {
 }
 
 .soft-skills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Languags section */
+.language-list {
+  padding: 0 0 0 17px;
+}
+
+.language-item {
+  color: #fb6d3a;
+}
+
+.language-item-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
